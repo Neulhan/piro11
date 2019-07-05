@@ -1,0 +1,271 @@
+        #wrap{
+            text-align: center;
+            width: 100%;
+            margin: 0;
+        }
+        #header{
+            overflow: hidden;
+            height: 800px;
+            background-color: #F5F9FD;
+
+        }
+        #header .fixed_bar a{
+            text-decoration: none;
+            color: #413B66;
+            font-weight: bold;
+            font-size: 0.8em;
+
+        }
+        @media screen and (max-width: 1180px){
+            #header .toolbar{
+                display: none;
+            }
+            #header .gnb .menu{
+                display: none;
+            }
+            #header .gnb .menu2{
+                display: block;
+                float: right;
+                margin-top: 15px;
+            }
+            .about .nav{
+                width: 100%;
+            }
+            .about .nav .left{
+                width: 40%; height: 800px;
+            }
+
+            .about {
+                margin-top: 150px;
+            }
+            .about .nav .right{
+                width: 55%;
+            }
+
+        }
+        #header .menu2{
+            display: none;
+        }
+        #header a:hover{
+            color: #1BB1DC ;
+        }
+        #header .fixed_bar{
+            width: 100%;
+            position: fixed;
+            background-color: #F5F9FD;
+        }
+        #header .toolbar{
+            height: 50px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 150px;
+        }
+        #header .toolbar a{
+            margin: 0 5px;
+        }
+        #header .gnb{
+            height: 100px;
+            line-height: 100px;
+            overflow: hidden;
+        }
+        #header .logo a{
+            text-decoration: none;
+        }
+        #header .gnb .logo{
+            margin-left: 150px;
+            float: left;
+            font-size: 2.5em;
+            color: #413E66;
+        }
+        #header .logo a:hover{
+            color: #413E66;
+        }
+        #header .gnb .menu{
+
+            float: right;
+
+        }
+        #header .gnb .menu li{
+            display: inline-block;
+            padding: 10px 15px;
+
+        }
+        #header .main_page{
+            width: 80%;
+            margin-top: 150px;
+            margin-left: 10%;
+            margin-right: 10%;
+            overflow: hidden;
+        }
+        #header .main_page .left{
+            width: 40%;
+            float: left;
+        }
+        #header .main_page .left .text{
+            display: inline-block;
+            color: #413E66;
+            margin-top: 50px;
+            font-size: 3em;
+            text-align: left;
+            font-weight: bold;
+        }
+        #header .main_page .left .text::after{
+            content: "Business!";
+            color: #1BB1DC;
+        }
+        #header .main_page .left a{
+            text-decoration: none;
+            color: white;
+        }
+        #header .main_page .left .img:hover{
+            background-color: #0A98C0;
+        }
+        #header .main_page .left .img{
+
+            margin-top: 30px;
+            width: 180px; height: 40px;
+            line-height: 40px;
+            color: white;
+            border-radius: 5px;
+            background-color: #1BB1DC;
+        }
+        #header .main_page .right{
+            width: 50%;
+            float: left;
+        }
+        #header .main_page .right img{
+            margin-left: 50px;
+            width: 500px;
+        }
+        #header select{
+            background-color: #F5F9FD;
+            border: none;
+            color: #413B66;
+            font-weight: bold;
+        }
+        #header .fixed_bar{
+            z-index: 9999;
+        }
+        .about{
+            margin: 0;
+        }
+        .about .nav{
+            width: 1152px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .about .nav .left{
+            float: left;
+            width: 500px; height: 800px;
+            margin: 0;
+            background-color: #EBF1Fa;
+        }
+
+        .about {
+            margin-top: 150px;
+        }
+        .about .nav .right{
+            float: left;
+            width: 600px; height: 800px;
+            margin-left: 50px;
+        }
+        .about .nav .left img{
+            margin-top: 50px;
+            width: 80%;
+            transition-duration: 0.5s;
+        }
+        .about .nav .left img:hover {
+            width: 82%;
+        }
+        .about .nav .right{
+            text-align: left;
+            overflow: hidden;
+        }
+        .about .nav .right h1{
+            margin-top: 50px;
+            font-weight: bold;
+            color: #413E66;
+        }
+        .about .nav .right p{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: normal;
+        }
+        .about .nav .right .f{
+            font-size: 1.5em;
+            font-style: italic;
+            color: #696592
+        }
+        .about  .nav .right li{
+
+        }
+        .our_clients{
+            width: 100%;
+            text-align: center;
+        }
+        .our_clients .text{
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #413E66;
+            margin-bottom: 50px;
+        }
+        .our_clients .img{
+            overflow: hidden;
+            display: inline-block;
+            margin: 0 auto;
+        }
+        .our_clients .img #f{
+            margin-left: 30px;
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img #s{
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img #t{
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img #f4{
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img #f5{
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img #s6{
+            width: 15%;
+            float: left;
+            opacity: 0.7;
+        }
+        .our_clients .img img{
+            width: 90%;
+        }
+        .our_clients .choice{
+            margin: 20px
+        }
+        .our_clients .img #f:hover{
+            opacity: 1;
+        }
+        .our_clients .img #s:hover{
+            opacity: 1;
+        }
+        .our_clients .img #t:hover{
+            opacity: 1;
+        }
+        .our_clients .img #f4:hover{
+            opacity: 1;
+        }
+        .our_clients .img #f5:hover{
+            opacity: 1;
+        }
+        .our_clients .img #s6:hover{
+            opacity: 1;
+        }

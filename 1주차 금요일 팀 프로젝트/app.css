@@ -1,0 +1,533 @@
+*{
+    font-family: "Montserrat", sans-serif;;
+}
+body{
+    margin:0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.box{
+    width: 330px;
+    height: 255px;
+    background-color: white;
+    margin: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.box:hover{
+    width: 350px;
+    height: 275px;
+    margin: 0;
+    padding: 10px;
+}
+@media (max-width:1200px){
+    .container{
+        width: 990px;
+    }
+    .box{
+        width: 270px;
+    }
+    .box:hover{
+    width: 290px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    }
+}
+@media (max-width: 990px){
+    .container{
+        width: 720px;
+    }
+    .box{
+        width: 310px;
+    }
+    .box:hover{
+    width: 320px;
+    height: auto;
+    margin: 0;
+    padding: 10px 17px 10px 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .box{
+        width: 490px;
+    }
+    .box:hover{
+    width: 560px;
+    height: 275px;
+    margin: 0;
+    padding: 10px;
+    }
+}
+@media (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .box{
+        width: 100%;
+    }
+}
+.mem-info-cont{
+    color: white;
+    text-align: center;
+}
+.mem-info-cont h4{
+    margin:0;
+    padding: 10px 0;
+}
+.social{
+    padding: 10px 0;
+}
+.social a i{
+    margin: 0 5px;
+    font-size: 1.1em;
+}
+.profs{
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prof{
+    width: 255px;
+    height: 255px;
+    margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+.prof:first-child{
+    background-image: url("현규형.jpg");
+    background-size: 100%;
+}
+.prof:nth-child(2){
+    background-image: url("소현누나.jpg");
+    background-size: 100%;
+
+}
+.prof:nth-child(3){
+    background-image: url("합체.jpg");
+    background-size: 100%;
+}
+.prof:nth-child(4){
+    background-image: url("한결.jpg");
+    background-size: 100%;
+}
+.mem-info{
+    background: gray;
+    opacity: 0.7;
+    position: relative;
+    top: 180px;
+    transition-duration: 0.5s;
+}
+
+.mem-info span{
+    font-size: 0.8em;
+ }
+.social{
+    margin: 20px 0 30px 0;
+}
+.mem-info:hover{
+     top:140px;
+}
+@media (max-width: 1200px){
+    .profs{
+        width: 960px;
+    }
+    .prof{
+        width: 210px;
+        height: 210px;
+    }
+    .mem-info{
+        top: 140px;
+    }
+    .mem-info:hover{
+        top: 100px;
+    }
+}
+@media (max-width: 960px){
+    .profs{
+        width: 720px;
+    }
+    .prof{
+        width: 330px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+    .mem-info{
+        top: 260px;
+    }
+    .mem-info:hover{
+        top: 210px;
+    }
+}
+@media (max-width: 768px) {
+    .profs {
+        width: 540px;
+    }
+    .prof {
+        width: 510px;
+        height: 510px;
+        margin-bottom: 20px;
+    }
+    .mem-info{
+        top: 440px;
+    }
+    .mem-info:hover{
+        top: 400px;
+    }
+}
+.social a{
+    color: white;
+}
+.bg{
+    background-color: #F5F8FD;
+}
+.area{
+    width:100%;
+    padding: 80px 0;
+}
+.card-area{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    text-align: center;
+    width: 100%;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.p2{
+    text-align: center;
+    width:465px;
+    font-size: 0.9em;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+}
+.card{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    margin: 20px 20px 15px 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.card:hover{
+    width: 365px;
+    height: 430px;
+    margin: 13px;
+    /*padding-top: 6px;*/
+    /*padding: 9px;*/
+}
+@media (max-width: 768px){
+    .card{
+        width: 510px;
+    }
+}
+@media (max-width: 1200px){
+    .card{
+        width: 290px;
+        height: 420px
+    }
+    .card:hover{
+        width: 300px;
+        height: 430px;
+        margin: 13px;
+    }
+}
+@media (max-width: 990px){
+    .card-area{
+        flex-direction: column;
+    }
+    .card{
+        width: 690px;
+        height: 420px;
+        margin: 20px auto 30px auto;
+    }
+    .card:hover{
+        width: 710px;
+        height: 430px;
+        margin: 10px auto 30px auto;
+    }
+}
+@media (max-width: 768px){
+    .card-area{
+        flex-direction: column;
+    }
+    .card{
+        width: 510px;
+        height: 420px;
+        margin: 20px auto 30px auto;
+    }
+    .card:hover{
+        width: 530px;
+        height: 430px;
+        margin: 10px auto 30px auto;
+    }
+}
+.card h3{
+    width: 100%;
+    height: 76.8px;
+    margin: 40px auto 16px auto;
+    /*margin: 12px 20px;*/
+    /*padding-top: 48px;*/
+    color: #535074;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+.card h3 .currency{
+    font-size: 30px;
+}
+.card h3 .period{
+    font-size: 16px;
+    color: #6C67A3;
+}
+.card h4{
+    width: 100%;
+    height: 28.8px;
+    margin: 0 auto 16px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #535074;
+    text-align: center;
+    font-weight: 400;
+}
+.card li{
+    list-style: none;
+    text-align: center;
+    color: #413E66;
+    width: 100%;
+    height: 24px;
+    padding: 6px;
+    margin: 0 auto;
+}
+.card-btn{
+    width: 160px;
+    background-color: #1BB1DC;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 3px;
+    margin: 10px auto 0 auto;
+}
+.faq-area{
+    padding: 60px 0;
+}
+.faq-area h2{
+    color: #413E65;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.faq-area p{
+    width: 465px;
+    color: #535074;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+    text-align: center;
+}
+.pnt{
+    cursor: pointer;
+}
+.q1{
+    width: 910px;
+    margin: 0 auto;
+    padding: 22px 20px 22px 0;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.q1 div{
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px){
+    .p2{
+        width: 555px;
+    }
+}
+
+div .area{
+    background-color: #F5F8FD;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.box{
+    width: 330px;
+    height: 255px;
+    background-color: white;
+    margin: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 10px auto 0 auto;
+}
+.iconify{
+    width: 100%;
+    height: 100%;
+    color: #ff689b;
+    background-color: lightpink;
+    border: 3px solid lightpink;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.yel{
+    width: 100%;
+    height: 100%;
+    color: #e98e06;
+    background-color: yellow;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.green{
+    width: 100%;
+    height: 100%;
+    color: #41cf2e;
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.blue{
+    width: 100%;
+    height: 100%;
+    color: #e6fdfc;
+    background-color: lightskyblue;
+    border: 3px solid lightskyblue;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.darkblue{
+    width: 100%;
+    height: 100%;
+    color: #2282ff;
+    background-color: lightblue;
+    border: 3px solid lightblue;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+.pur{
+    width: 100%;
+    height: 100%;
+    color: #8660fe;
+    background-color: purple;
+    border: 3px solid mediumpurple;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+.box h4 a{
+    text-decoration: none;
+}
+.box h4{
+    text-align: center;
+}
+.box p{
+    width: 210px;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 0.9em;
+}
+
+.box:hover{
+    width: 350px;
+    height: 275px;
+    margin: 0;
+    padding: 10px;
+}
+@media (max-width:1200px){
+    .container{
+        width: 990px;
+    }
+    .box{
+        width: 270px;
+    }
+    .box:hover{
+    width: 290px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    }
+}
+@media (max-width: 990px){
+    .container{
+        width: 720px;
+    }
+    .box{
+        width: 310px;
+    }
+    .box:hover{
+    width: 320px;
+    height: auto;
+    margin: 0;
+    padding: 10px 17px 10px 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .box{
+        width: 490px;
+    }
+    .box:hover{
+    width: 560px;
+    height: 275px;
+    margin: 0;
+    padding: 10px;
+    }
+}
+@media (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .box{
+        width: 100%;
+    }
+}
+
+div .box a{
+    color: black;
+}
+div .q1{
+    text-align: left;
+}

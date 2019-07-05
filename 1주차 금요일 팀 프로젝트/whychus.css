@@ -1,0 +1,75 @@
+        .why-topbar{
+            height:200px; text-align:center;
+            margin:0 auto; line-height:100px;
+
+        }
+        .why-topbar div:nth-child(1){padding: 5px;
+                                     font-weight:bold;
+                                     font-size:3em;
+        }
+        .image-text{
+            height:630px;
+        }
+        .why-image{width:50%; height:450px; padding:10px; float:left;
+        }
+        .why-image img{width:90%; height:450px;}
+        .why-text{
+            text-align: left;
+            width:45%; padding:10px;
+            height:600px; float:left;
+        }
+        .why-footer{height:200px;  display:block;
+                    text-align:center; margin:0 auto; line-height:50px;
+                    padding: 5px;
+        }
+        .why-footer ul {
+                overflow: hidden;
+                list-style: none;
+                display:inline-block;
+        }
+        .why-footer li {
+            float: left;
+            margin: 0 auto;
+
+
+        }
+        .why-footer li p:nth-child(1) {
+            font-size: 3em;
+            font-weight: bold;
+            color:#7354c3;
+            margin-bottom:15px;
+        }
+        .why-footer li p:nth-child(2){opacity:0.5}
+        .why-text p:nth-child(3){font-size:1.6em; font-weight:bold;}
+        .why-text p:nth-child(5) {font-size: 1.6em; font-weight: bold;}
+        .why-text p:nth-child(7) {font-size: 1.6em; font-weight: bold;}
+        .why-footer li{ width: 20%;
+
+        }
+        .why-text p{
+            margin-bottom: 20px;
+        }
+        #our-portfolio
+        {height:600px; text-align:center; margin:0 auto; }
+        .our-header{margin-top:50px; height:100px; font-size:2.5em; font-weight:bold; line-height:100px;}
+        .our-nav{ height:100px; font-size:1.3em; }
+        .our-nav a{
+            text-decoration:none; color:black; text-align:center;
+        }
+        .our-nav ul{list-style:none; overflow:hidden; display:inline-block;}
+            .our-nav ul li { float: left;
+                padding: 20px     }
+        .our-nav ul a:hover{
+            color:  skyblue;
+        }
+        .our-content{ height:1500px; overflow:hidden; }
+        .our-content img{display:inline-block; float:left; width:30%;}
+        .our-content img:hover{opacity:0.6; }
+        .testimonials { height:300px; margin:0 auto; text-align:center;
+        }
+        .testimonials .test-up { font-size:2.5em; font-weight:bold;
+        }
+        .testimonials .test-down{height:200px;}
+        .our_portfolio{
+            background-color: #F5F8FD;
+        }

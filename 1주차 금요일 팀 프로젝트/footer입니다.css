@@ -1,0 +1,175 @@
+
+#main-footer {
+  background: #eaf3fc;
+  text-align: left;
+}
+
+#mf-border {
+  width: 1100px;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#mf-border1 {
+  width: 20%;
+  height: 650px;
+  margin: 30px 15px;
+  display: inline-block;
+  float: left;
+  overflow: visible;
+}
+#mf-border1 p{
+  width: 100%;
+}
+
+#search {
+  width: 160px;
+  height: 30px;
+  margin-top: -50px;
+}
+
+#subscribe {
+  margin: -20px;
+  height: 30px;
+  color: white;
+  background: #56a7ff;
+  margin-top: -50px;
+}
+
+#mf-border1-title {
+  font-size: 2.4em;
+  opacity: 0.7;
+  margin-bottom: -10px;
+}
+
+#mf-border1-title2 {
+  opacity: 0.7;
+  margin-bottom: -5px;
+}
+
+#mf-border2 {
+  width: 20%;
+  float: left;
+  height: 650px;
+  margin: 30px 15px;
+  display: inline-block;
+}
+
+#mf-border2-title {
+  opacity: 0.7;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+#useful-links-list {
+  margin-bottom: 60px;
+}
+
+#useful-links-list > li a:hover {
+  color: #56a7ff;
+}
+
+#useful-links-list > li {
+  margin-top: 20px;
+  list-style: none;
+  margin-left: -35px;
+}
+
+#useful-links-list > li a {
+  text-decoration: none;
+  opacity: 0.5;
+  color: black;
+}
+
+#mf-border2-title2 {
+  opacity: 0.7;
+}
+#mf-border p{
+  width: 100%
+}
+
+#contact-us-list {
+  margin: 60px -35px;
+}
+
+#contact-us-list li {
+  list-style: none;
+  float: left;
+  margin-right: 30px
+}
+
+#contact-us-list > li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#contact-us-list > li a:hover {
+  color: #56a7ff;
+}
+
+.footer-right {
+  margin: 30px 15px;
+  width: 50%;
+  height: 650px;
+  float: left;
+}
+
+.footer-rightup {
+  width: 90%;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+#footer-rightup-title {
+  opacity: 0.7;
+}
+
+.footer-rightdown form input {
+  width: 90%;
+  padding-top: 10px;
+  margin: 7px;
+}
+
+.footer-rightdown form input:nth-child(4) {
+  height: 100px;
+  line-height: 0px;
+}
+
+.footer-rightdown form input:nth-child(5) {
+  background-color: skyblue;
+  height: 35px;
+  margin: 20px auto;
+  color: white;
+  width: 30%;
+  border: none;
+}
+
+
+#sub-footer {
+
+}
+
+#sub-footer-border {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#sub-footer-content {
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+#sub-footer-link {
+  text-decoration: none;
+}
+#sub-footer{
+  text-align: center;
+}
+#sub-footer-content p{
+  width: 100%;
+
+}
